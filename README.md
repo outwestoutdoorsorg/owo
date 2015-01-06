@@ -1,6 +1,8 @@
 # Leveraged blog for AWS setup
 http://www.nickangeli.com/how-to-set-up-ghost-on-aws-using-git-push-to-deploy/
 
+TODO: Consider [configuring a nginx server](http://www.sitepoint.com/configuring-nginx-speed-ghost-blog/)
+
 sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 2368
 
 # Run server with forever
