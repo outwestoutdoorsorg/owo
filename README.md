@@ -1,3 +1,18 @@
+# Run server with forever
+
+NODE_ENV=production forever start index.js
+
+To check that this has started the server you should check that you can access your Ghost blog on port 2368.
+
+You can stop or restart the forever instance using:
+
+$ forever stop index.js
+$ forever restart index.js
+
+You can also list the running instances of forever with:
+
+$ forever list
+
 # [Ghost](https://github.com/TryGhost/Ghost) [![Build Status](https://travis-ci.org/TryGhost/Ghost.svg?branch=master)](https://travis-ci.org/TryGhost/Ghost)
 
 ![Ghost Screenshot](https://cloud.githubusercontent.com/assets/120485/4828504/9e832764-5f80-11e4-8ac1-0332bcc67a35.png)
